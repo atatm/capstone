@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-      <section class="container" >
+    <header class="container">
         <div class="navheader">
           <div class="black">
             <ul>
@@ -25,12 +24,15 @@
         </div>
     <nav>
     <div class ="navbar1">
-        <img src="images/menu.png" id="menu-icon" alt="humbergur images">
+
+      <div class="humberger"><img src="images/menu.png" id="menu-icon" alt="humbergur images">
+         
+      </div>  
         <div class="desk-menu" id="deskMenu">
             <div class="desk-menu-inside">
              <div class="logo"><img src="images/africalogo.webp" alt="logo images"></div>
+             <img id="menu-close" src="images/closeIcon.png" alt="close icon">
              <ul>
-              <li ><a class="menu" href="./index.html">Home</a></li>
                <li ><a class="menu" href="./about.html">About</a></li>
                <li ><a class="menu" href="#about.html">Program</a></li>
                <li ><a class="menu" href="#contact-me">Join</a></li>
@@ -41,21 +43,9 @@
            </div>
         </div>
     
-    <div class="mobile-menu" id="mobileMenu">
-        <img id="menu-close" src="images/closeIcon.png" alt="close icon">
-        <ul class="mob-menu">
-          <li class="menu"><a class="moblink-menu" href="./index.html">Home</a></li>
-          <li class="menu"><a class="moblink-menu" href="./about.html">About</a></li>
-          <li class="menu"><a class="moblink-menu" href="#about.html">Program</a></li>
-          <li class="menu"><a class="moblink-menu" href="#contact-me">Join</a></li>
-          <li class="menu"><a class="moblink-menu" href="#about-me">Sponser</a></li>
-          <li class="menu"><a class="moblink-menu" href="#contact-me">Register</a></li>
-        </ul>
-    </div>
-    
      </div>
   </nav>
-    <div class="front">
+    <section class="front">
         <div class="front1">
         <h2>"hello! developers"</h2>
         <h1>SOFTWARE DEVELOPERS <br> GLOBAL SUMMIT 2023</h1>
@@ -67,46 +57,51 @@
         <h3 class="date">2023.10.15(THO) ~ 16(FRI)</h3>
         <p>@AU Assemble Hall, ADDIS ABABA ETHIOPIA</p>
         </div>
-    </div>
-</section>
+      </section>
 </header>
     <section class="mainpage">
-        <h1>Main Page</h1>
+        <h1>Main Program</h1>
          <hr class="redline">
         <div class="boxes">
-        <div class="box">
+          <article class="box">
             <div class="photo"><img src="images/images (4).png" alt=""></div>
            <h3>Lecture</h3>
            <p>Listen from the speakers those who came from all over the world and who are profeciaonal in software development </p>
-        </div>
-        <div class="box">
+          </article>
+
+          <article class="box">
             <div class="photo"><img src="images/images (1).png" alt=""></div>
             <h3>CC Exhibition </h3>
             <p>Appreciate various creations applying software development licens of ariists organized from Art Center Nabi</p>
-        </div>
-        <div class="box">
+          </article>
+
+          <article class="box">
             <div class="photo"><img src="images/images (2).png" alt=""></div>
             <h3>Forum</h3>
             <p>Have the same time to share to your thoughts, opinions with experts of software developers topic.</p>
-        </div>
-        <div class="box">
+          </article>
+
+          <article class="box">
             <div class="photo"><img src="images/images (3).png" alt=""></div>
             <h3>Workshop</h3> 
             <p>Try Creating your own apps using open source license rather than just watching about software app.</p>
-        </div>
-        <div class="box">
+          </article>
+
+          <article class="box">
             <div class="photo"><img src="images/images.jpg" alt=""></div>
             <h3>CC Ignite</h3>
             <p>Get the  chance to network with CC affilliates around the world ,also after the summit of development</p>
-        </div>
+          </article>
      </div>
-     <div class="redbox"> <h3> <a href="#">View full Program></a> </h3> </div>
+     <div class="redbox"> <h3> <a href="#">See Full Program></a> </h3> </div>
     </section>
-    <div class="feature">
+    <section class="feature">
+    
         <h1>Main Speakers</h1>
         <hr class="redline"> 
         <div class="bspeakers"></div>
-    </div>
+  
+  </section>
      <section class="sponcers">
         <div class="platinum">
           <h1>platinum Sponcers</h1>
@@ -131,7 +126,6 @@
     
  
  <footer class="homefooter">
-
     <div class="logo">
       <img src="images/africalogo.webp" alt="logo images">
     </div>
@@ -140,8 +134,8 @@
        <p>@All right reserved</p>
        <img src="images/social media icons.png" alt="social media images">
     </div>
-
 </footer>
+
  <script src="script.js"></script>
 </body>
 </html>

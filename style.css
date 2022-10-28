@@ -27,6 +27,7 @@ body {
   width: 100%;
 }
 
+/*
 .mobile-menu {
   width: 0%;
   height: 0%;
@@ -64,6 +65,8 @@ body {
   align-items: flex-end;
 }
 
+*/
+
 .logo img {
   width: 80px;
   height: 50px;
@@ -84,6 +87,10 @@ h1 {
   font-weight: 900;
 }
 
+.mainpage h1 {
+  color: #fff;
+}
+
 .pbox1 {
   border: 1px solid white;
   padding: 20px;
@@ -91,7 +98,7 @@ h1 {
 
 .front1 {
   padding-top: 30px;
-  padding-left: 50px;
+  padding-left: 20%;
 }
 
 .front2 {
@@ -169,6 +176,10 @@ footer p {
   grid-template-columns: 25% 25% auto;
   border: 1px solid black;
   padding-top: 20px;
+}
+
+.box:hover {
+  border: 1px solid white;
 }
 
 .box img {
@@ -271,7 +282,7 @@ footer p {
 
 footer {
   width: 100%;
-  background: #2e2e2e;
+  background: darkgrey;
   display: grid;
   grid-template-columns: 50% 50%;
   align-items: center;
@@ -457,6 +468,43 @@ footer .right {
 
 @media screen and (max-width: 768px) {
   .desk-menu {
+    width: 0%;
+    height: 0%;
+    padding-left: 40px;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    padding-top: 50px;
+    overflow: hidden;
+  }
+
+  .desk-menu ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+  }
+
+  .desk-menu ul a {
+    color: white;
+    list-style: none;
+  }
+
+  .desk-menu.open-mobileMenu {
+    left: 0;
+    width: 80%;
+    height: 100vh;
+    background: black;
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(4px);
+  }
+
+  .menu-close {
+    align-items: flex-end;
+  }
+
+  .desk-menu-inside .logo img {
     display: none;
   }
 }

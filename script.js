@@ -1,4 +1,4 @@
-const mobileMenu = document.getElementById('mobileMenu');
+const mobileMenu = document.getElementById('deskMenu');
 const menuIcon = document.getElementById('menu-icon');
 const closeIcon = document.getElementById('menu-close');
 

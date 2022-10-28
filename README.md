@@ -43,7 +43,7 @@ Give a ⭐️ if you like this project!
 
 # Acknowledgments
 
-+ original design by : Cindy Chin
+-  original design by : Cindy Chin
 
 -Hat tip to anyone whose code was used
 
