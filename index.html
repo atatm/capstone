@@ -11,13 +11,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="navbar1">
+    <header>
+      <section class="container" >
+        <div class="navheader">
+          <div class="black">
+            <ul>
+              <li><a href="#"><img src="images/twitterlogo.png" alt="twitterlogo"></a></li>
+              <li><a href="#">English</a></li>
+              <li><a href="#">Mypage</a></li>
+              <li><a href="#">Log out</a></li>
+            </ul>
+          </div>
+        </div>
+    <nav>
+    <div class ="navbar1">
         <img src="images/menu.png" id="menu-icon" alt="humbergur images">
-        <div class="logo"><img src="images/africalogo.webp" alt="logo images"></div>
+        <div class="desk-menu" id="deskMenu">
+            <div class="desk-menu-inside">
+             <div class="logo"><img src="images/africalogo.webp" alt="logo images"></div>
+             <ul>
+              <li ><a class="menu" href="./index.html">Home</a></li>
+               <li ><a class="menu" href="./about.html">About</a></li>
+               <li ><a class="menu" href="#about.html">Program</a></li>
+               <li ><a class="menu" href="#contact-me">Join</a></li>
+               <li ><a class="menu" href="#about-me">Sponser</a></li>
+               <li ><a class="menu" href="#contact-me">Register</a></li>
+               <li ><a href="index.html"> <button class="menu-btn"> Presentation</button></a></li>
+            </ul>
+           </div>
+        </div>
     
     <div class="mobile-menu" id="mobileMenu">
         <img id="menu-close" src="images/closeIcon.png" alt="close icon">
         <ul class="mob-menu">
+          <li class="menu"><a class="moblink-menu" href="./index.html">Home</a></li>
           <li class="menu"><a class="moblink-menu" href="./about.html">About</a></li>
           <li class="menu"><a class="moblink-menu" href="#about.html">Program</a></li>
           <li class="menu"><a class="moblink-menu" href="#contact-me">Join</a></li>
@@ -25,21 +52,13 @@
           <li class="menu"><a class="moblink-menu" href="#contact-me">Register</a></li>
         </ul>
     </div>
-    <div class="desk-menu" id="deskMenu">
-        <ul class="desk-menu">
-          <li class="menu"><a class="desktop-menu" href="./about.html">About</a></li>
-          <li class="menu"><a class="desktop-menu" href="#about.html">Program</a></li>
-          <li class="menu"><a class="desktop-menu" href="#contact-me">Join</a></li>
-          <li class="menu"><a class="desktop-menu" href="#about-me">Sponser</a></li>
-          <li class="menu"><a class="desktop-menu" href="#contact-me">Register</a></li>
-        </ul>
-    </div>
-   </div>
- <div class="container">
+    
+     </div>
+  </nav>
     <div class="front">
         <div class="front1">
         <h2>"hello! developers"</h2>
-        <h1>DEVELOPERS GLOBAL SUMMIT 2023</h1>
+        <h1>SOFTWARE DEVELOPERS <br> GLOBAL SUMMIT 2023</h1>
         </div>
         <div class="front2">
         <p class="pbox1">A motivational Conference for those who want to be profecional software developer held by Technology for Africa is taking place in June Ethiopia.</p>
@@ -49,11 +68,11 @@
         <p>@AU Assemble Hall, ADDIS ABABA ETHIOPIA</p>
         </div>
     </div>
-</div>
-
-    <div class="mainpage">
+</section>
+</header>
+    <section class="mainpage">
         <h1>Main Page</h1>
-        <p class="redline">__________</p>
+         <hr class="redline">
         <div class="boxes">
         <div class="box">
             <div class="photo"><img src="images/images (4).png" alt=""></div>
@@ -81,17 +100,17 @@
             <p>Get the  chance to network with CC affilliates around the world ,also after the summit of development</p>
         </div>
      </div>
-     <div class="redbox"> <h3>Join Summit 2023</h3> </div>
-    </div>
+     <div class="redbox"> <h3> <a href="#">View full Program></a> </h3> </div>
+    </section>
     <div class="feature">
         <h1>Main Speakers</h1>
-        <p class="redline">__________</p>
+        <hr class="redline"> 
         <div class="bspeakers"></div>
     </div>
-     <div class="sponcers">
+     <section class="sponcers">
         <div class="platinum">
           <h1>platinum Sponcers</h1>
-          <p class="redline">__________</p>
+          <hr class="redline">
           <div class="pltimage">
           <img src="images/amazon.jpg" alt="amazon images">
           <img src="images/google.jpg" alt="google images">
@@ -101,25 +120,28 @@
 
        <div class="gold"> 
         <h1>Gold Sponcers</h1>
-        <p class="redline">__________</p>
+        <hr class="redline">
         <div class="goldimage">
         <img src="images/channel logo.png" alt="channel images">
         <img src="images/fedex.jpg" alt="fedex images">
         <img src="images/dominos.jpg" alt="dominos images">
         </div>
        </div>
-     </div>
+    </section>
     
  
- <div class="footer">
-    <p>The african software development</p>
-    <div class="logo">
-    <img src="images/africa-signal-logo-design-vector-600w-1454378303.webp" alt="logo images">
-    <img src="images/africalogo.webp" alt="logo images">
-   </div>
-    <img src="images/social media icons.png" alt="social media images">
+ <footer class="homefooter">
 
- </div>
+    <div class="logo">
+      <img src="images/africalogo.webp" alt="logo images">
+    </div>
+     <div class="right">
+       <p>The african software development </p>
+       <p>@All right reserved</p>
+       <img src="images/social media icons.png" alt="social media images">
+    </div>
+
+</footer>
  <script src="script.js"></script>
 </body>
 </html>
